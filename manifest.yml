@@ -1,0 +1,14 @@
+---
+applications:
+- name: iblogger
+  memory: 256M
+  instances: 1
+  host: iblogger
+  domain: 192.168.0.15.xip.io
+  path: .
+  services:
+    cooler:
+      label: p-mysql
+      provider: 
+      version: 
+      plan: 100mb
