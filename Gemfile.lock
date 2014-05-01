@@ -29,9 +29,6 @@ GEM
     atomic (1.1.14)
     bcrypt-ruby (3.0.1)
     builder (3.1.4)
-    cf-autoconfig (0.2.1)
-      cf-runtime (= 0.2.0)
-    cf-runtime (0.2.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.3)
@@ -79,7 +76,6 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
-    pg (0.16.0)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -140,13 +136,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cf-autoconfig (~> 0.2.1)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   mysql2
   paperclip
-  pg
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)
   sdoc

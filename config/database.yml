@@ -1,5 +1,5 @@
 <%
-  mydb = JSON.parse(ENV['VCAP_SERVICES'])["p-mysql"]
+  mydb = JSON.parse(ENV['VCAP_SERVICES'])["cleardb"]
   credentials = mydb.first["credentials"]
 %>
 development:
